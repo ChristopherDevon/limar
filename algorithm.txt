@@ -1,0 +1,34 @@
+start
+print request username and password
+read username and password
+	if username and password are correct see current  balance and calculations
+	
+print choose what to do
+
+print changes made to curent balance after addition
+	if addition was made
+	addition = balance + addition
+	print new balance
+
+print changes made to current balance after subtraction
+	if subtraction was made
+	subtraction = balance - subtraction
+	print new balance
+
+print changes made to current balance after multiplication
+	if multiplication was made
+	multiplication = balance * number of multiplication
+	print new balance
+
+print changes made to current balance after division
+	if division was made
+	division = balance : number of division
+	print new balance
+
+print changes made to current balance after modulus
+	if modulus was made
+	print new balance
+
+print exit program yes or no
+	if yes exit program
+	if no display current balance and ask to exit again
