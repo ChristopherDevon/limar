@@ -23,15 +23,18 @@ int main(){
 	int op;
 
 	do{
-		
+
+int menu(){
+	
 	do{
 		printf("\nWhich one would you like to do ?");
 		printf("\n 1 : Addition \n 2 : Subtraction \n 3 : Multiplication \n 4 : Division \n 5 : Modulus \n 6 : exit\n\n Type the number of the operation : ");
 		scanf("%d", &op);getchar();
 	
 		}while
-		((op != 1) && (op != 2) && (op != 3) && (op != 4) && (op != 5) && (op != 6));
+		((op != 1) && (op != 2) && (op != 3) && (op != 4) && (op != 5) && (op != 6));}
 		
+int addition(){
 	if (op == 1){
 		int balance;
 		float value;
@@ -73,9 +76,10 @@ int main(){
 		} else if(op == 2){
 			printf("--------------------------\n\n");
 		}
-	} while(op != 1 && op != 2);
+	} while(op != 1 && op != 2);}
 	
 		
+int subtraction(){
 		if (op == 2){
 		
 		int value;
@@ -94,7 +98,7 @@ int main(){
 		
 		}else if (op==2){
 			}break;{}
-	} while ((op !=1) && (op !=2));
+	} while ((op !=1) && (op !=2));}}
 	 	
 		 
 		 if (op == 3){
@@ -140,6 +144,7 @@ int main(){
 	} while ((op !=1) && (op !=2));
 	
 	
+int modulus(){	
 		if (op == 5){
 		
 		int value;
@@ -157,15 +162,16 @@ int main(){
 			printf("--------------------------\n\n");
 		}else if (op==2){
 			}break;{}
-	} while ((op !=1) && (op !=2));
+	} while ((op !=1) && (op !=2));}
 	
 	
+int return(){
 		}else if(op==6){
 		int prompt;
 		printf("\nare you sure?\n");
 		printf("1.yes\n2.no\n\n");
 		scanf("%d",&prompt);
-		getchar();
+		getchar();}
 		
 		if(prompt==1){
 			printf("\n\n\n\nPress enter to continue");
